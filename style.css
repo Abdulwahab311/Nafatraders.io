@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    backdrop-filter: blur(150px);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list ul li {
+    display: inline;
+}
+
+.navbar-list {
+    padding-right: 100px;
+    margin: 9px;
+}
+
+ul li {
+    margin: 30px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 25px;
+    font-style: italic;
+    color: beige;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px;
+    border: solid lightblue;
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+    background: transparent;
+    font-style: italic;
+    color: brown;
+}
+.navbar-list ul li a:hover {
+    transition: 0.6s ease-in-out;
+    color: rgb(250, 246, 255);
+    text-decoration: underline red;
+    text-underline-position: under;
+}
+
+.btn:hover {
+    transition: 0.6s ease-in-out;
+    color: cadetblue;
+    background-color: beige;
+}
+
+.logo i {
+    margin: 13px;
+    color: rgb(167, 116, 51);
+}
+
+.container {
+    background-color: rgb(216, 227, 234);
+    background-size: cover;
+}
+
+.logo span {
+    color: darkblue;
+    font-weight: 700;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+}
+
+.heading h1 {
+    font-size: 100px;
+    margin: 10px;
+    color: rgb(181, 181, 122);
+    font-style: italic;
+}
+
+.heading h1 span {
+    color: darkblue;
+    ;
+}
+
+.heading p {
+    font-size: 45px;
+    margin: 10px;
+    color: rgb(46, 64, 74);
+    font-style: italic;
+}
+
+.btn3 {
+    font-size: 20px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    height: 35px;
+    background: transparent;
+    border: solid rgb(148, 73, 73);
+    font-style: italic;
+    color: rgb(32, 57, 32);
+}
+.btn3:hover{
+        transition: 0.6s ease-in-out;
+        color: cadetblue;
+        background-color: beige;
+}
+
+.footing {
+    background-color: gray;
+    color: white;
+    margin-top: 500px;
+    display: flex;
+}
+
+.row {
+    margin-top: 50px;
+    justify-content: space-evenly;
+    padding-left: 100px;
+}
+
+.row span {
+    color: white;
+}
+
+.row h4 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(181, 24, 24);
+}
+
+.row ul {
+    text-decoration: underline lightseagreen;
+    text-underline-position: under;
+}
+
+.row ul li {
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.row ul li a {
+    color: rgb(229, 199, 199);
+
+}
+
+.social-links {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.social-links a {
+    margin: 8px;
+    color: rgb(120, 95, 63);
+}
+
+.social-links a i {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+.social-links a:hover {
+    color: rgb(73, 38, 38);
+    transition: 0.7s ease-in-out;
+}
+
+.social-links a i:hover {
+    background-color: white;
+    transition: 0.2s ease-out;
+}
+
+.row h4:hover {
+    color: rgb(134, 163, 178);
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.row h4 span:hover {
+    color: rgb(87, 88, 88);
+    transition: 0.7s ease-in-out;
+}
